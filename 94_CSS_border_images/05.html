@@ -1,1 +1,29 @@
-image as the border around an element
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color:#E7E9EB;
+}
+#myDIV {
+  height:300px;
+  background-color:#FFFFFF;
+  border: 15px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30% stretch;
+}
+</style>
+</head>
+<body>
+
+<h1>The border-image Property</h1>
+
+<div id="myDIV">
+<p>A demonstration on different ways to set the border image.</p>
+<p>We used this image:<br>
+<img src="border.png">
+</p>
+</div>
+
+</body>
+</html>
