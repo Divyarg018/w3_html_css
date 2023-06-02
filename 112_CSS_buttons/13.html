@@ -9,14 +9,14 @@
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  /* float: left; */
+  width: 150px;
+  display: block;
 }
 
 .btn-group .button:not(:last-child) {
-  border-right: none; /* Prevent double borders */
+  border-bottom: none; /* Prevent double borders */
 }
 
 .btn-group .button:hover {
@@ -26,9 +26,7 @@
 </head>
 <body>
 
-<h2>Bordered Button Group</h2>
-
-<p>Add borders to create a bordered button group:</p>
+<h2>Vertical Button Group</h2>
 
 <div class="btn-group">
   <button class="button">Button</button>
@@ -36,8 +34,6 @@
   <button class="button">Button</button>
   <button class="button">Button</button>
 </div>
-
-<p style="clear:both"><br>Remember to clear floats after, or else will this p element also float next to the buttons.</p>
 
 </body>
 </html>
